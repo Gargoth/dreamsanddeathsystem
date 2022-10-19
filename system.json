@@ -42,5 +42,5 @@
     "secondaryTokenAttribute": null,
     "url": "https://github.com/Gargoth/dreamsanddeathsystem",
     "manifest": "https://raw.githubusercontent.com/Gargoth/dreamsanddeathsystem/main/system.json",
-    "download": ""
+    "bugs": "https://github.com/Gargoth/dreamsanddeathsystem/issues"
 }

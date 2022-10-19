@@ -1,5 +1,6 @@
 const fs = require("fs");
-const { series, parallel } = require("gulp");
+const { series, parallel, src, dest, watch } = require("gulp");
+const less = require("gulp-less");
 
 function cleanPacks(cb) {
     fs.rmSync("packs", {
@@ -26,4 +27,21 @@ function convertPacks(cb) {
     cb();
 }
 
+function watchPacks(cb) {
+    watch("src/packs/*/*.json", series(cleanPacks, convertPacks));
+    cb();
+}
+
+function transpileLess(cb) {
+    src("src/style/dreamsanddeath.less").pipe(less()).pipe(dest("./styles/"));
+    cb();
+}
+
+function watchLess(cb) {
+    watch("src/style/*.less", series(transpileLess));
+    cb();
+}
+
+exports.less = series(transpileLess);
+exports.watch = parallel(watchPacks, watchLess);
 exports.pack = series(cleanPacks, convertPacks);

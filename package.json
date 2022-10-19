@@ -4,7 +4,9 @@
     "description": "",
     "main": "scripts/dreamsanddeath.mjs",
     "scripts": {
-        "pack": "gulp pack"
+        "pack": "gulp pack",
+        "less": "gulp less",
+        "watch": "gulp watch"
     },
     "repository": {
         "type": "git",
@@ -17,6 +19,7 @@
     },
     "homepage": "https://github.com/Gargoth/dreamsanddeathsystem#readme",
     "devDependencies": {
-        "gulp": "^4.0.2"
+        "gulp": "^4.0.2",
+        "gulp-less": "^5.0.0"
     }
 }
