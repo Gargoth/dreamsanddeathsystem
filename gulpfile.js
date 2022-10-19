@@ -16,7 +16,9 @@ function convertPacks(cb) {
         const packJsons = fs.readdirSync(`src/packs/${packName}`);
         let dbData = "";
         packJsons.forEach((packJson) => {
-            const data = JSON.stringify(JSON.parse(fs.readFileSync(`src/packs/${packName}/${packJson}`)));
+            const data = JSON.stringify(
+                JSON.parse(fs.readFileSync(`src/packs/${packName}/${packJson}`))
+            );
             dbData += data + "\n";
         });
         fs.writeFileSync(`packs/${packName}.db`, dbData);
