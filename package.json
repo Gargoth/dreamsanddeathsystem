@@ -1,0 +1,22 @@
+{
+    "name": "dreamsanddeathsystem",
+    "version": "0.0.1",
+    "description": "",
+    "main": "scripts/dreamsanddeath.mjs",
+    "scripts": {
+        "pack": "gulp pack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gargoth/dreamsanddeathsystem.git"
+    },
+    "author": "Gargoth",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Gargoth/dreamsanddeathsystem/issues"
+    },
+    "homepage": "https://github.com/Gargoth/dreamsanddeathsystem#readme",
+    "devDependencies": {
+        "gulp": "^4.0.2"
+    }
+}

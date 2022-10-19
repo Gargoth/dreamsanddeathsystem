@@ -1,0 +1,46 @@
+{
+    "id": "dreamsanddeath",
+    "title": "Dreams and Death",
+    "description": "System for the Dreams and Death campaign by Sseventeen",
+    "version": "0.0.1",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10",
+        "maximum": "10"
+    },
+    "authors": [
+        {
+            "name": "Gargoth",
+            "url": "https://github.com/Gargoth",
+            "email": "gargoth13@gmail.com"
+        },
+        {
+            "name": "Sseventeen",
+            "url": "https://github.com/jazersy17",
+            "email": "jazersy@gmail.com"
+        }
+    ],
+    "esmodules": [
+        "scripts/dreamsanddeath.mjs"
+    ]
+    "styles": [
+        "styles/dreamsanddeath.css",
+    ],
+    "packs": [
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "socket": true,
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": null,
+    "url": "https://github.com/Gargoth/dreamsanddeathsystem",
+    "manifest": "https://raw.githubusercontent.com/Gargoth/dreamsanddeathsystem/main/system.json",
+    "download": ""
+}
