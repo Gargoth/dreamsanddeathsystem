@@ -20,14 +20,9 @@
             "email": "jazersy@gmail.com"
         }
     ],
-    "esmodules": [
-        "scripts/dreamsanddeath.mjs"
-    ]
-    "styles": [
-        "styles/dreamsanddeath.css",
-    ],
-    "packs": [
-    ],
+    "esmodules": ["scripts/dreamsanddeath.mjs"],
+    "styles": ["styles/dreamsanddeath.css"],
+    "packs": [],
     "languages": [
         {
             "lang": "en",

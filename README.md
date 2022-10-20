@@ -10,4 +10,16 @@ This system is planned to contain all mechanics and data described in the [syste
 
 `npm run pack`
 
-The pack script overwrites the `packs/` directory with new `.db` files made from the JSON files in `src/packs/<packName>/`
+The `pack` script overwrites the `packs/` directory with new `.db` files made from the JSON files in `src/packs/<packName>/`
+
+- `less`
+
+`npm run less`
+
+The `less` script transpiles the `.less` files in `src/style/` into css with `src/style/dreamsanddeath.less` as the starting point.
+
+- `watch`
+
+`npm run watch`
+
+The `watch` script watches for changes in `src/style/*.less` and `src/packs/*/*.json` and runs either `pack` or `less` whenever the corresponding files are changed.
