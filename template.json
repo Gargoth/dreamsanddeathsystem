@@ -69,7 +69,11 @@
             "armorUpgrades": []
         },
         "shield": {},
-        "ammunition": {},
+        "ammunition": {
+            "templates": ["generic", "physicalObject", "consumable"],
+            "damageType": null,
+            "ammoFeats": []
+        },
         "consumable": {},
         "feat": {},
         "infusion": {}
