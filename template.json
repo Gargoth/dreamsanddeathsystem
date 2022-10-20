@@ -9,6 +9,7 @@
             "consumable",
             "feat",
             "armorUpgrade",
+            "item",
             "infusion"
         ],
         "templates": {

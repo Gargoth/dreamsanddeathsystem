@@ -1,21 +1,21 @@
 {
-    "name": "Hand Axe",
-    "description": "A humble tool and a deadly weapon.",
-    "price": 5,
+    "name": "Parrying Dagger",
+    "description": "",
+    "price": 15,
     "durability": {
         "value": 10,
         "max": 10
     },
     "statReq": {
         "str": 0,
-        "dex": 0,
+        "dex": 15,
         "con": 0,
         "int": 0,
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["handaxe"],
+    "profReq": ["martialweapon"],
+    "tag": ["parryingdagger"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -25,14 +25,14 @@
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 6,
+            "dieSize": 4,
             "dmgMod": 0,
-            "type": "slashing"
+            "type": "piercing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["thrown,60", "light", "bleed", "pairedweapon"]
+    "weaponFeats": ["finesse", "light", "parryingtool"]
 }

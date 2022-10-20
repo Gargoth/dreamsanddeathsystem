@@ -1,21 +1,21 @@
 {
-    "name": "Hand Axe",
-    "description": "A humble tool and a deadly weapon.",
-    "price": 5,
+    "name": "Scimitar",
+    "description": "",
+    "price": 20,
     "durability": {
-        "value": 10,
-        "max": 10
+        "value": 15,
+        "max": 15
     },
     "statReq": {
         "str": 0,
-        "dex": 0,
+        "dex": 15,
         "con": 0,
         "int": 0,
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["handaxe"],
+    "profReq": ["martialweapon"],
+    "tag": ["scimitar"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -34,5 +34,5 @@
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["thrown,60", "light", "bleed", "pairedweapon"]
+    "weaponFeats": ["finesse", "light", "pairedweapon", "bleed"]
 }

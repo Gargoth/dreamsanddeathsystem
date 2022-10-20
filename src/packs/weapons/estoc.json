@@ -1,38 +1,38 @@
 {
-    "name": "Hand Axe",
-    "description": "A humble tool and a deadly weapon.",
-    "price": 5,
+    "name": "Estoc",
+    "description": "",
+    "price": 40,
     "durability": {
-        "value": 10,
-        "max": 10
+        "value": 20,
+        "max": 20
     },
     "statReq": {
-        "str": 0,
-        "dex": 0,
+        "str": 12,
+        "dex": 14,
         "con": 0,
         "int": 0,
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["handaxe"],
+    "profReq": ["martialweapon"],
+    "tag": ["estoc"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
         "min": 0,
-        "max": 5
+        "max": 10
     },
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 6,
+            "dieSize": 10,
             "dmgMod": 0,
-            "type": "slashing"
+            "type": "piercing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["thrown,60", "light", "bleed", "pairedweapon"]
+    "weaponFeats": ["twohanded", "lungingattack", "fencingweapon"]
 }

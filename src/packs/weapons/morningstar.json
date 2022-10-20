@@ -1,21 +1,21 @@
 {
-    "name": "Hand Axe",
-    "description": "A humble tool and a deadly weapon.",
-    "price": 5,
+    "name": "Morningstar",
+    "description": "",
+    "price": 20,
     "durability": {
-        "value": 10,
-        "max": 10
+        "value": 20,
+        "max": 20
     },
     "statReq": {
-        "str": 0,
+        "str": 15,
         "dex": 0,
         "con": 0,
         "int": 0,
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["handaxe"],
+    "profReq": ["martialweapon"],
+    "tag": ["morningstar"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -27,12 +27,12 @@
             "dieNumber": 1,
             "dieSize": 6,
             "dmgMod": 0,
-            "type": "slashing"
+            "type": "piercing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["thrown,60", "light", "bleed", "pairedweapon"]
+    "weaponFeats": ["bleed", "pommel"]
 }

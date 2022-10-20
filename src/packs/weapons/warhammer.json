@@ -1,21 +1,21 @@
 {
-    "name": "Hand Axe",
-    "description": "A humble tool and a deadly weapon.",
-    "price": 5,
+    "name": "Warhammer",
+    "description": "",
+    "price": 30,
     "durability": {
-        "value": 10,
-        "max": 10
+        "value": 20,
+        "max": 20
     },
     "statReq": {
-        "str": 0,
+        "str": 16,
         "dex": 0,
         "con": 0,
         "int": 0,
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["handaxe"],
+    "profReq": ["martialweapon"],
+    "tag": ["warhammer"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -25,14 +25,14 @@
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 6,
+            "dieSize": 12,
             "dmgMod": 0,
-            "type": "slashing"
+            "type": "bludgeoning"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["thrown,60", "light", "bleed", "pairedweapon"]
+    "weaponFeats": ["heavy", "twohanded", "guardbreaker", "pommel"]
 }

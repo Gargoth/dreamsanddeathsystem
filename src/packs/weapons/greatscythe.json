@@ -1,31 +1,31 @@
 {
-    "name": "Hand Axe",
-    "description": "A humble tool and a deadly weapon.",
-    "price": 5,
+    "name": "Great Scythe",
+    "description": "",
+    "price": 25,
     "durability": {
         "value": 10,
         "max": 10
     },
     "statReq": {
-        "str": 0,
-        "dex": 0,
+        "str": 14,
+        "dex": 14,
         "con": 0,
         "int": 0,
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["handaxe"],
+    "profReq": ["martialweapon"],
+    "tag": ["greatscythe"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
         "min": 0,
-        "max": 5
+        "max": 10
     },
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 6,
+            "dieSize": 10,
             "dmgMod": 0,
             "type": "slashing"
         }
@@ -34,5 +34,5 @@
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["thrown,60", "light", "bleed", "pairedweapon"]
+    "weaponFeats": ["finesse", "twohanded", "cleave", "bleed"]
 }
