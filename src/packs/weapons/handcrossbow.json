@@ -1,0 +1,38 @@
+{
+    "name": "Hand Crossbow",
+    "description": "",
+    "price": 30,
+    "durability": {
+        "value": 20,
+        "max": 20
+    },
+    "statReq": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+    },
+    "profReq": ["crossbows"],
+    "tag": ["handcrossbow"],
+    "statMod": "dex",
+    "isOffhand": false,
+    "range": {
+        "min": 60,
+        "max": 120
+    },
+    "damage": [
+        {
+            "dieNumber": 1,
+            "dieSize": 6,
+            "dmgMod": 0,
+            "type": "piercing"
+        }
+    ],
+    "ammo": {
+        "isRequired": true,
+        "requiredTag": ["bolt"]
+    },
+    "weaponFeats": ["light", "loading"]
+}
