@@ -2,7 +2,10 @@
     "name": "Javelin",
     "description": "",
     "price": 2,
-    "durability": 10,
+    "durability": {
+        "value": 10,
+        "max": 10
+    },
     "statReq": {
         "str": 0,
         "dex": 0,

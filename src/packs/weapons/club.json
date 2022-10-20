@@ -2,7 +2,10 @@
     "name": "Club",
     "description": "A wooden stick, to pummel your foes...",
     "price": 1,
-    "durability": 5,
+    "durability": {
+        "value": 5,
+        "max": 5
+    },
     "statReq": {
         "str": 0,
         "dex": 0,

@@ -1,21 +1,21 @@
 {
-    "name": "Quarterstaff",
+    "name": "Halberd",
     "description": "",
-    "price": 2,
+    "price": 35,
     "durability": {
-        "value": 5,
-        "max": 5
+        "value": 10,
+        "max": 10
     },
     "statReq": {
-        "str": 0,
+        "str": 15,
         "dex": 0,
         "con": 0,
         "int": 0,
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["quarterstaff"],
+    "profReq": ["martialweapon"],
+    "tag": ["halberd"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -25,14 +25,14 @@
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 6,
+            "dieSize": 10,
             "dmgMod": 0,
-            "type": "bludgeoning"
+            "type": "piercing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["versatile,8", "finesse", "deflectmissile", "pommel"]
+    "weaponFeats": ["heavy", "twohanded", "duality", "hordebreaker"]
 }

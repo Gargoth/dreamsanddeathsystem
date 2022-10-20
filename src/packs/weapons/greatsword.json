@@ -1,21 +1,21 @@
 {
-    "name": "Reinforced Great Club",
-    "description": "Your weapon is your lifeline, preserve it.",
-    "price": 10,
+    "name": "Greatsword",
+    "description": "",
+    "price": 50,
     "durability": {
         "value": 20,
         "max": 20
     },
     "statReq": {
-        "str": 16,
+        "str": 15,
         "dex": 0,
         "con": 0,
         "int": 0,
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["reinforcedgreatclub"],
+    "profReq": ["martialweapon"],
+    "tag": ["greatsword"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -25,14 +25,14 @@
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 12,
+            "dieSize": 10,
             "dmgMod": 0,
-            "type": "bludgeoning"
+            "type": "slashing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["twohanded", "heavy", "unwieldy", "heavyattack", "pommel"]
+    "weaponFeats": ["heavy", "twohanded", "leveragedstrike", "cleave"]
 }

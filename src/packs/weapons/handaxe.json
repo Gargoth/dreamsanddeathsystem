@@ -2,7 +2,10 @@
     "name": "Hand Axe",
     "description": "A humble tool and a deadly weapon.",
     "price": 5,
-    "durability": 10,
+    "durability": {
+        "value": 10,
+        "max": 10
+    },
     "statReq": {
         "str": 0,
         "dex": 0,

@@ -2,7 +2,10 @@
     "name": "Greatclub",
     "description": "Monstrous size has intrinsic merit.",
     "price": 5,
-    "durability": 5,
+    "durability": {
+        "value": 5,
+        "max": 5
+    },
     "statReq": {
         "str": 16,
         "dex": 0,

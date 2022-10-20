@@ -2,7 +2,10 @@
     "name": "Mace",
     "description": "",
     "price": 5,
-    "durability": 10,
+    "durability": {
+        "value": 10,
+        "max": 10
+    },
     "statReq": {
         "str": 14,
         "dex": 0,

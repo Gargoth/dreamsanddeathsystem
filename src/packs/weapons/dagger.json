@@ -2,7 +2,10 @@
     "name": "Dagger",
     "description": "A bright sheen in the dark... and then, blood.",
     "price": 5,
-    "durability": 10,
+    "durability": {
+        "value": 10,
+        "max": 10
+    },
     "statReq": {
         "str": 0,
         "dex": 0,

@@ -1,7 +1,7 @@
 {
-    "name": "Reinforced Great Club",
-    "description": "Your weapon is your lifeline, preserve it.",
-    "price": 10,
+    "name": "Flamberge",
+    "description": "",
+    "price": 50,
     "durability": {
         "value": 20,
         "max": 20
@@ -14,8 +14,8 @@
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["reinforcedgreatclub"],
+    "profReq": ["martialweapon"],
+    "tag": ["flamberge"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -25,14 +25,14 @@
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 12,
+            "dieSize": 8,
             "dmgMod": 0,
-            "type": "bludgeoning"
+            "type": "slashing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["twohanded", "heavy", "unwieldy", "heavyattack", "pommel"]
+    "weaponFeats": ["heavy", "twohanded", "bleed", "leveragedstrike"]
 }

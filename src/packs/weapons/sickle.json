@@ -2,7 +2,10 @@
     "name": "Sickle",
     "description": "Reap and sow.",
     "price": 1,
-    "durability": 5,
+    "durability": {
+        "value": 5,
+        "max": 5
+    },
     "statReq": {
         "str": 0,
         "dex": 0,

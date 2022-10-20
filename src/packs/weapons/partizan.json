@@ -1,38 +1,38 @@
 {
-    "name": "Reinforced Great Club",
-    "description": "Your weapon is your lifeline, preserve it.",
-    "price": 10,
+    "name": "Partizan",
+    "description": "",
+    "price": 40,
     "durability": {
         "value": 20,
         "max": 20
     },
     "statReq": {
-        "str": 16,
-        "dex": 0,
+        "str": 14,
+        "dex": 14,
         "con": 0,
         "int": 0,
         "wis": 0,
         "cha": 0
     },
-    "profReq": ["simpleweapon"],
-    "tag": ["reinforcedgreatclub"],
+    "profReq": ["martialweapon"],
+    "tag": ["partizan"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
         "min": 0,
-        "max": 5
+        "max": 10
     },
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 12,
+            "dieSize": 8,
             "dmgMod": 0,
-            "type": "bludgeoning"
+            "type": "piercing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["twohanded", "heavy", "unwieldy", "heavyattack", "pommel"]
+    "weaponFeats": ["twohanded", "duality", "handleguard"]
 }
