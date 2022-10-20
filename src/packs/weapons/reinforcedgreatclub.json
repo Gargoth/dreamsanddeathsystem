@@ -1,10 +1,10 @@
 {
-    "name": "Club",
-    "description": "A wooden stick, to pummel your foes...",
-    "price": 1,
-    "durability": 5,
+    "name": "Reinforced Great Club",
+    "description": "Your weapon is your lifeline, preserve it.",
+    "price": 10,
+    "durability": 20,
     "statReq": {
-        "str": 0,
+        "str": 16,
         "dex": 0,
         "con": 0,
         "int": 0,
@@ -12,7 +12,7 @@
         "cha": 0
     },
     "profReq": ["simpleweapon"],
-    "tag": ["club"],
+    "tag": ["reinforcedgreatclub"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -22,7 +22,7 @@
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 4,
+            "dieSize": 12,
             "type": "bludgeoning"
         }
     ],
@@ -30,5 +30,5 @@
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["heavyattack", "pommel"]
+    "weaponFeats": ["twohanded", "heavy", "unwieldy", "heavyattack", "pommel"]
 }

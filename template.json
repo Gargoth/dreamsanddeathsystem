@@ -40,6 +40,7 @@
             "templates": ["generic", "physicalObject", "equipment"],
             "tag": [],
             "statMod": "str",
+            "isOffhand": false,
             "range": {
                 "min": 0,
                 "max": 10

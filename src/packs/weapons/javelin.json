@@ -1,8 +1,8 @@
 {
-    "name": "Club",
-    "description": "A wooden stick, to pummel your foes...",
-    "price": 1,
-    "durability": 5,
+    "name": "Javelin",
+    "description": "",
+    "price": 2,
+    "durability": 10,
     "statReq": {
         "str": 0,
         "dex": 0,
@@ -12,7 +12,7 @@
         "cha": 0
     },
     "profReq": ["simpleweapon"],
-    "tag": ["club"],
+    "tag": ["javelin"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -22,13 +22,13 @@
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 4,
-            "type": "bludgeoning"
+            "dieSize": 6,
+            "type": "piercing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["heavyattack", "pommel"]
+    "weaponFeats": ["thrown,120"]
 }
