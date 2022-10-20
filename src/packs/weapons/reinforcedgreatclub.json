@@ -23,6 +23,7 @@
         {
             "dieNumber": 1,
             "dieSize": 12,
+            "dmgMod": 0,
             "type": "bludgeoning"
         }
     ],

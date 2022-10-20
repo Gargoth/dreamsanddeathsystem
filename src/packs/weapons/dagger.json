@@ -23,6 +23,7 @@
         {
             "dieNumber": 1,
             "dieSize": 4,
+            "dmgMod": 0,
             "type": "piercing"
         }
     ],
