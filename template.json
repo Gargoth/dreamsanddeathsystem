@@ -1,4 +1,68 @@
 {
     "Actor": {},
-    "Item": {}
+    "Item": {
+        "types": [
+            "weapon",
+            "armor",
+            "shield",
+            "ammunition",
+            "consumable",
+            "feat"
+        ],
+        "templates": {
+            "generic": {
+                "name": "name",
+                "description": "description"
+            },
+            "physicalObject": {
+                "price": 1
+            },
+            "usable": {
+                "uses": {
+                    "amount": 1,
+                    "autoDelete": false
+                }
+            },
+            "equipment": {
+                "durability": 10,
+                "statReq": {
+                    "str": 0,
+                    "dex": 0,
+                    "con": 0,
+                    "int": 0,
+                    "wis": 0,
+                    "cha": 0
+                },
+                "profReq": ["simpleweapon"]
+            }
+        },
+        "weapon": {
+            "templates": ["generic", "physicalObject", "equipment"],
+            "tag": "longsword",
+            "statMod": "str",
+            "range": {
+                "min": 0,
+                "max": 10
+            },
+            "damage": [
+                {
+                    "dieNumber": 1,
+                    "dieSize": 6,
+                    "type": "slashing"
+                }
+            ],
+            "ammo": {
+                "isRequired": false,
+                "requiredTag": ["bolt"]
+            },
+            "weaponFeats": []
+        },
+        "armor": {
+
+        },
+        "shield": {},
+        "ammunition": {},
+        "consumable": {},
+        "feat": {}
+    }
 }
