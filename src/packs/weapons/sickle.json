@@ -1,7 +1,7 @@
 {
-    "name": "Quarterstaff",
-    "description": "",
-    "price": 2,
+    "name": "Sickle",
+    "description": "Reap and sow.",
+    "price": 1,
     "durability": 5,
     "statReq": {
         "str": 0,
@@ -12,23 +12,23 @@
         "cha": 0
     },
     "profReq": ["simpleweapon"],
-    "tag": ["quarterstaff"],
+    "tag": ["sickle"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
         "min": 0,
-        "max": 10
+        "max": 5
     },
     "damage": [
         {
             "dieNumber": 1,
-            "dieSize": 6,
-            "type": "bludgeoning"
+            "dieSize": 4,
+            "type": "slashing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["versatile,8", "finesse", "deflectmissile", "pommel"]
+    "weaponFeats": ["light", "bleed"]
 }

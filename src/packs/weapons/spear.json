@@ -1,8 +1,8 @@
 {
-    "name": "Quarterstaff",
+    "name": "Spear",
     "description": "",
-    "price": 2,
-    "durability": 5,
+    "price": 5,
+    "durability": 10,
     "statReq": {
         "str": 0,
         "dex": 0,
@@ -12,7 +12,7 @@
         "cha": 0
     },
     "profReq": ["simpleweapon"],
-    "tag": ["quarterstaff"],
+    "tag": ["spear"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
@@ -23,12 +23,12 @@
         {
             "dieNumber": 1,
             "dieSize": 6,
-            "type": "bludgeoning"
+            "type": "piercing"
         }
     ],
     "ammo": {
         "isRequired": false,
         "requiredTag": []
     },
-    "weaponFeats": ["versatile,8", "finesse", "deflectmissile", "pommel"]
+    "weaponFeats": ["thrown,60", "versatile,8"]
 }
