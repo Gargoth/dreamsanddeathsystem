@@ -7,12 +7,15 @@
             "shield",
             "ammunition",
             "consumable",
-            "feat"
+            "feat",
+            "armorUpgrade",
+            "infusion"
         ],
         "templates": {
             "generic": {
                 "name": "name",
-                "description": "description"
+                "description": "description",
+                "tag": []
             },
             "physicalObject": {
                 "price": 1
@@ -38,7 +41,6 @@
         },
         "weapon": {
             "templates": ["generic", "physicalObject", "equipment"],
-            "tag": [],
             "statMod": "str",
             "isOffhand": false,
             "range": {
@@ -59,10 +61,17 @@
             },
             "weaponFeats": []
         },
-        "armor": {},
+        "armor": {
+            "templates": ["generic", "physicalObject", "equipment"],
+            "dmgReduction": 1,
+            "modSlots": 1,
+            "armorFeats": [],
+            "armorUpgrades": []
+        },
         "shield": {},
         "ammunition": {},
         "consumable": {},
-        "feat": {}
+        "feat": {},
+        "infusion": {}
     }
 }
