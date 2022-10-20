@@ -4,7 +4,6 @@
     "description": "",
     "main": "scripts/dreamsanddeath.mjs",
     "scripts": {
-        "pack": "gulp pack",
         "less": "gulp less",
         "watch": "gulp watch"
     },
