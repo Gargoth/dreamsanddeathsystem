@@ -1,0 +1,38 @@
+{
+    "name": "Shortbow",
+    "description": "",
+    "price": 1,
+    "durability": {
+        "value": 10,
+        "max": 10
+    },
+    "statReq": {
+        "str": 0,
+        "dex": 14,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+    },
+    "profReq": ["bows"],
+    "tag": ["shortbow"],
+    "statMod": "dex",
+    "isOffhand": false,
+    "range": {
+        "min": 60,
+        "max": 120
+    },
+    "damage": [
+        {
+            "dieNumber": 1,
+            "dieSize": 6,
+            "dmgMod": 0,
+            "type": "piercing"
+        }
+    ],
+    "ammo": {
+        "isRequired": true,
+        "requiredTag": ["arrow"]
+    },
+    "weaponFeats": ["twohanded", "flurry"]
+}

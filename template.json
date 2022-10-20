@@ -69,10 +69,16 @@
             "templates": ["generic", "physicalObject", "equipment"],
             "dmgReduction": 1,
             "modSlots": 1,
+            "material": "metal",
             "armorFeats": [],
             "armorUpgrades": []
         },
-        "shield": {},
+        "shield": {
+            "templates": ["generic", "physicalObject", "equipment"],
+            "def": 1,
+            "material": "metal",
+            "shieldFeats": []
+        },
         "ammunition": {
             "templates": ["generic", "physicalObject", "consumable"],
             "damageType": null,

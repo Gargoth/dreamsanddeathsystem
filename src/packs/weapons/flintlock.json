@@ -1,0 +1,38 @@
+{
+    "name": "flintlock",
+    "description": "",
+    "price": 30,
+    "durability": {
+        "value": 15,
+        "max": 15
+    },
+    "statReq": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+    },
+    "profReq": ["firearms"],
+    "tag": ["flintlock"],
+    "statMod": "dex",
+    "isOffhand": false,
+    "range": {
+        "min": 60,
+        "max": 120
+    },
+    "damage": [
+        {
+            "dieNumber": 1,
+            "dieSize": 10,
+            "dmgMod": 0,
+            "type": "piercing"
+        }
+    ],
+    "ammo": {
+        "isRequired": true,
+        "requiredTag": ["gunpowder"]
+    },
+    "weaponFeats": ["light", "loading", "slowloading", "armorpiercing,2"]
+}

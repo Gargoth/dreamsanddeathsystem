@@ -1,0 +1,31 @@
+{
+    "name": "Bola",
+    "description": "",
+    "price": 5,
+    "durability": {
+        "value": 10,
+        "max": 10
+    },
+    "statReq": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+    },
+    "profReq": ["martialmelee"],
+    "tag": ["bola"],
+    "statMod": "dex",
+    "isOffhand": false,
+    "range": {
+        "min": 0,
+        "max": 15
+    },
+    "damage": [],
+    "ammo": {
+        "isRequired": false,
+        "requiredTag": []
+    },
+    "weaponFeats": ["thrown", "ensnaring"]
+}

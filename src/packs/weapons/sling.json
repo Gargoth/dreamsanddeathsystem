@@ -1,0 +1,38 @@
+{
+    "name": "Sling",
+    "description": "",
+    "price": 1,
+    "durability": {
+        "value": 5,
+        "max": 5
+    },
+    "statReq": {
+        "str": 0,
+        "dex": 14,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+    },
+    "profReq": [],
+    "tag": ["heavycrossbow"],
+    "statMod": "dex",
+    "isOffhand": false,
+    "range": {
+        "min": 30,
+        "max": 60
+    },
+    "damage": [
+        {
+            "dieNumber": 1,
+            "dieSize": 4,
+            "dmgMod": 0,
+            "type": "bludgeoning"
+        }
+    ],
+    "ammo": {
+        "isRequired": false,
+        "requiredTag": []
+    },
+    "weaponFeats": ["commonammunition", "easyusage"]
+}

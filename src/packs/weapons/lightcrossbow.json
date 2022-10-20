@@ -1,0 +1,38 @@
+{
+    "name": "Light Crossbow",
+    "description": "",
+    "price": 25,
+    "durability": {
+        "value": 20,
+        "max": 20
+    },
+    "statReq": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+    },
+    "profReq": ["crossbows"],
+    "tag": ["lightcrossbow"],
+    "statMod": "dex",
+    "isOffhand": false,
+    "range": {
+        "min": 120,
+        "max": 240
+    },
+    "damage": [
+        {
+            "dieNumber": 1,
+            "dieSize": 6,
+            "dmgMod": 0,
+            "type": "piercing"
+        }
+    ],
+    "ammo": {
+        "isRequired": true,
+        "requiredTag": ["bolt"]
+    },
+    "weaponFeats": ["loading", "twohanded", "armorpiercing,2"]
+}

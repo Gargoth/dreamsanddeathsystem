@@ -1,0 +1,38 @@
+{
+    "name": "blunderbuss",
+    "description": "",
+    "price": 50,
+    "durability": {
+        "value": 15,
+        "max": 15
+    },
+    "statReq": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+    },
+    "profReq": ["firearms"],
+    "tag": ["blunderbuss"],
+    "statMod": "dex",
+    "isOffhand": false,
+    "range": {
+        "min": 0,
+        "max": 15
+    },
+    "damage": [
+        {
+            "dieNumber": 3,
+            "dieSize": 6,
+            "dmgMod": 0,
+            "type": "piercing"
+        }
+    ],
+    "ammo": {
+        "isRequired": true,
+        "requiredTag": ["gunpowder"]
+    },
+    "weaponFeats": ["loading", "twohanded", "slowloading", "powderhungry", "armorpiercing,3"]
+}
