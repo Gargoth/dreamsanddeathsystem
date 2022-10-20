@@ -38,7 +38,7 @@
         },
         "weapon": {
             "templates": ["generic", "physicalObject", "equipment"],
-            "tag": "longsword",
+            "tag": [],
             "statMod": "str",
             "range": {
                 "min": 0,
@@ -57,9 +57,7 @@
             },
             "weaponFeats": []
         },
-        "armor": {
-
-        },
+        "armor": {},
         "shield": {},
         "ammunition": {},
         "consumable": {},

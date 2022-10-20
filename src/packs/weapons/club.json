@@ -1,0 +1,33 @@
+{
+    "name": "Club",
+    "description": "",
+    "price": 1,
+    "durability": 5,
+    "statReq": {
+        "str": 0,
+        "dex": 0,
+        "con": 0,
+        "int": 0,
+        "wis": 0,
+        "cha": 0
+    },
+    "profReq": ["simpleweapon"],
+    "tag": ["club"],
+    "statMod": "str",
+    "range": {
+        "min": 0,
+        "max": 5
+    },
+    "damage": [
+        {
+            "dieNumber": 1,
+            "dieSize": 4,
+            "type": "bludgeoning"
+        }
+    ],
+    "ammo": {
+        "isRequired": false,
+        "requiredTag": []
+    },
+    "weaponFeats": ["heavyattack", "pommel"]
+}
