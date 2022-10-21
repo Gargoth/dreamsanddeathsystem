@@ -1,6 +1,6 @@
 {
     "name": "Flamberge",
-    "description": "",
+    "description": "The ferocity of fire given physical form.",
     "price": 50,
     "durability": {
         "value": 20,

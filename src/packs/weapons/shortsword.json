@@ -1,6 +1,6 @@
 {
     "name": "Shortsword",
-    "description": "",
+    "description": "Simple but effective.",
     "price": 20,
     "durability": {
         "value": 20,

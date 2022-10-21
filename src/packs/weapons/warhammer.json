@@ -1,6 +1,6 @@
 {
     "name": "Warhammer",
-    "description": "",
+    "description": "Break through the enemy line.",
     "price": 30,
     "durability": {
         "value": 20,

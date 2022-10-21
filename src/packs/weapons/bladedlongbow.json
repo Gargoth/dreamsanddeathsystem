@@ -1,6 +1,6 @@
 {
     "name": "Bladed Longbow",
-    "description": "",
+    "description": "A ranger must always be prepared.",
     "price": 30,
     "durability": {
         "value": 15,

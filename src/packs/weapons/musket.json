@@ -1,6 +1,6 @@
 {
-    "name": "musket",
-    "description": "",
+    "name": "Musket",
+    "description": "Power and precision.",
     "price": 50,
     "durability": {
         "value": 15,
