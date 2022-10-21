@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["simpleweapon"],
-    "tag": ["spear"],
+    "tag": ["spear", "pole"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

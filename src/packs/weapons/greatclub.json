@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["simpleweapon"],
-    "tag": ["greatclub"],
+    "tag": ["greatclub", "colossalweapon", "blunt"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

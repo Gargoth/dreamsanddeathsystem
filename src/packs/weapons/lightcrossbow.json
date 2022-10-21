@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["crossbows"],
-    "tag": ["lightcrossbow"],
+    "tag": ["lightcrossbow", "crossbow"],
     "statMod": "dex",
     "isOffhand": false,
     "range": {

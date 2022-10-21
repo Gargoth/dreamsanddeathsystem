@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["rapier"],
+    "tag": ["rapier", "rapier"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

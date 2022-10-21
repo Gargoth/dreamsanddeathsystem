@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["firearms"],
-    "tag": ["handcannon"],
+    "tag": ["handcannon", "firearm"],
     "statMod": "dex",
     "isOffhand": false,
     "range": {

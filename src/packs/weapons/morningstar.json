@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["morningstar"],
+    "tag": ["morningstar", "blunt"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["bows"],
-    "tag": ["shortbow"],
+    "tag": ["shortbow", "bow"],
     "statMod": "dex",
     "isOffhand": false,
     "range": {

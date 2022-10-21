@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["simpleweapon"],
-    "tag": ["javelin"],
+    "tag": ["javelin", "pole"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

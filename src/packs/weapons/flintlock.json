@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["firearms"],
-    "tag": ["flintlock"],
+    "tag": ["flintlock", "firearm"],
     "statMod": "dex",
     "isOffhand": false,
     "range": {

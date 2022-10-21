@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["greataxe"],
+    "tag": ["greataxe", "greatweapon", "axe"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

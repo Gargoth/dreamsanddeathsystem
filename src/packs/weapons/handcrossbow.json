@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["crossbows"],
-    "tag": ["handcrossbow"],
+    "tag": ["handcrossbow", "crossbow"],
     "statMod": "dex",
     "isOffhand": false,
     "range": {

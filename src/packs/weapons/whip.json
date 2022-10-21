@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["whip"],
+    "tag": ["whip", "chainwhip"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

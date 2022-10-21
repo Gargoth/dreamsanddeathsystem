@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["zweihander"],
+    "tag": ["zweihander", "colossalweapon", "blade"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

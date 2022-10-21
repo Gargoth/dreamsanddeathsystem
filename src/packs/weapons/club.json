@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["simpleweapon"],
-    "tag": ["club"],
+    "tag": ["club", "blunt"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

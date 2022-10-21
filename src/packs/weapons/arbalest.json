@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["crossbows"],
-    "tag": ["arbalest"],
+    "tag": ["arbalest", "crossbow"],
     "statMod": "dex",
     "isOffhand": false,
     "range": {

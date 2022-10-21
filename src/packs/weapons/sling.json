@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": [],
-    "tag": ["heavycrossbow"],
+    "tag": ["heavycrossbow", "sling"],
     "statMod": "dex",
     "isOffhand": false,
     "range": {

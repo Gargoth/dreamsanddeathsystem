@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["greatsword"],
+    "tag": ["greatsword", "greatweapon", "blade"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

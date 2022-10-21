@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["warpick"],
+    "tag": ["warpick", "blunt"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

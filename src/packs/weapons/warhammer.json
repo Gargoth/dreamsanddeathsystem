@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["warhammer"],
+    "tag": ["warhammer", "blunt"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

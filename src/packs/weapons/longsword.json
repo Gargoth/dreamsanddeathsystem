@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["longsword"],
+    "tag": ["longsword", "blade"],
     "statMod": "str",
     "isOffhand": false,
     "range": {

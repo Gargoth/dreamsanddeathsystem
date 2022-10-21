@@ -1,6 +1,6 @@
 {
     "name": "Scimitar",
-    "description": "",
+    "description": "Curved swords, they have curved swords!",
     "price": 20,
     "durability": {
         "value": 15,
@@ -15,7 +15,7 @@
         "cha": 0
     },
     "profReq": ["martialweapon"],
-    "tag": ["scimitar"],
+    "tag": ["scimitar", "blade"],
     "statMod": "str",
     "isOffhand": false,
     "range": {
